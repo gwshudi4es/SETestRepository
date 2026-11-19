@@ -235,9 +235,9 @@ void showFormulaInfo() {
 	cout << "=======================================================\n";
 	cout << " Variant 14 Task:\n";
 	cout << " If x < -4:\n";
-	cout << "    y = Prod(j=0..n, (j+2)*x) + 3 * Sum(i=0..n, 12i + 1/x)\n";
+	cout << "    y = Prod(j=-1..3, (j+2)*x) + 3 * Sum(i=3..n, 12i + 1/x)\n";
 	cout << " If x >= -4:\n";
-	cout << "    y = Sum(i=0..n-1, Prod(j=1..n, (i + j + i/j)^2))\n\n";
+	cout << "    y = Sum(i=0..n+1, Prod(j=1..n-3, (i + j + i/j)^2))\n\n";
 	cout << " Constraints:\n";
 	cout << " - 'a' and 'b' must be real numbers with b >= a\n";
 	cout << " - 'step' must be strictly greater than 0\n";
